@@ -2,28 +2,27 @@
 // By default all are public
 
 class OtherClass {
-  constructor(private x: number, private y?: number) {}
+  constructor(private _x: number, private _y?: number) {}
   doDraw() {
-    console.log("Cordinates are X:", this.x, "and Y is :", this.y);
+    console.log("Cordinates are X:", this._x, "and Y is :", this._y);
   }
 
   getDistance2() {
     //getDistance
   }
 
-  get X() {
-    return this.x;
+  get x() {
+    return this._x;
   }
 
-  set X(value) {
+  set x(value) {
     if (value < 0) throw new Error("Value can not be zero");
-    this.x = value;
+    this._x = value;
   }
 }
 
 let otherObject: OtherClass = new OtherClass(100);
 
-let x = otherObject.X;
-otherObject.X = 10;
+let x = otherObject.x;
+otherObject.x = -1;
 point.doDraw();
-
