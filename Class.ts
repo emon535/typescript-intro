@@ -14,9 +14,11 @@ class Point {
   getDistance2() {
     //getDistance
   }
+  
 }
 
 let point: Point = new Point(100);
 
 point.doDraw();
+point.x = 10;
 point.getDistance2;
