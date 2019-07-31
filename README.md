@@ -2,7 +2,8 @@
 Started learning typescript
 
 ### Practiced:
-  -- Types, Functions
-  -- Classes
-  -- Public-Private-Protected Types
-  -- Interfaces
+
+  - Types, Functions
+  - Classes
+  - Public-Private-Protected Types
+  - Interfaces
